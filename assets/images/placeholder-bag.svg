@@ -1,0 +1,12 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 400 400'>
+  <defs>
+    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#f4ede6'/>
+      <stop offset='100%' stop-color='#e0d6cd'/>
+    </linearGradient>
+  </defs>
+  <rect width='400' height='400' fill='url(#bg)'/>
+  <path d='M120 140 h160 l20 180 h-200 z' fill='#b07d5e' stroke='#7e4d32' stroke-width='4' />
+  <path d='M160 140 c0-30 80-30 80 0' fill='none' stroke='#7e4d32' stroke-width='4' />
+  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Times New Roman' font-size='32' fill='#ffffff' letter-spacing='4'>BAG</text>
+</svg>

@@ -1,5 +1,8 @@
 <?php
-if ($_SERVER['HTTP_HOST'] === 'localhost') {
+
+$hostName = $_SERVER['HTTP_HOST'] ?? '';
+
+if ($hostName === 'localhost:8080' || $hostName === '127.0.0.1') {
     $host = "localhost";
     $user = "root";
     $pass = "";
